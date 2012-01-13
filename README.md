@@ -1,18 +1,18 @@
 Commentary
 ==========
 
-MKPersianCal is a simple way to present Persian date "Shamsi - Khorshidi". It's include one class, MKPersianCal, and occupies less than 100 kB compiled. It uses only public APIs, to show Persian date of course you can create events for your dates and ensure that your application is safe for submission to the App Store.
+MKPersianCal is a simple way to present Persian date "Shamsi - Khorshidi". It's include one class, MKPersianCal, and occupies less than 5 kB compiled. It uses only public APIs, to show Persian date ,and of course you can create events for your dates and ensure that your application is safe for submission to the App Store.
 
 Installation
 ============
 
-Drag  MKPersianCal.h/.m into your project and make sure you import this class in your `ViewController.h` class `#import "MKPersianCal.h"`
+Drag  MKPersianCal.h/.m into your project and make sure you import `#import "MKPersianCal.h"` this class in your `ViewController.h`  
 
 
 Getting Started
 ==
-* Implementing the LeavesViewDataSource protocol:
-`MKPersianCal *cal = [[MKPersianCal alloc] init];`
+* Implementing the MKPersianCal protocol:
+`MKPersianCal *persianCal = [[MKPersianCal alloc] init];`
 
 
 
