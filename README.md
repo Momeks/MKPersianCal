@@ -1,13 +1,12 @@
 Commentary
 ==========
 
-Easily convert elisp file headers to markdown text. The file
-comment headers should be similar to this one.
+MKPersianCal is a simple way to present Persian date "Shamsi - Khorshidi". It's include one class, MKPersianCal, and occupies less than 100 kB compiled. It uses only public APIs, to show Persian date of course you can create events for your dates and ensure that your application is safe for submission to the App Store.
 
 Installation
 ============
 
-None
+Drag two MKPersianCal.h/.m into your project 
 
 Use
 ===
