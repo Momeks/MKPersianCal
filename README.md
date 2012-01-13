@@ -6,11 +6,15 @@ MKPersianCal is a simple way to present Persian date "Shamsi - Khorshidi". It's 
 Installation
 ============
 
-Drag  MKPersianCal.h/.m into your project and make sure import this class in your `ViewController.h` class:
-`#import "MKPersianCal.h"`
+Drag  MKPersianCal.h/.m into your project and make sure you import this class in your `ViewController.h` class `#import "MKPersianCal.h"`
+
 
 Getting Started
-===
+==
+* Implementing the LeavesViewDataSource protocol:
+`MKPersianCal *cal = [[MKPersianCal alloc] init];`
+
+
 
 
 ================
